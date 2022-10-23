@@ -172,6 +172,7 @@ public class CommandLink {
 						c.getSource().sendFailure(Component.translatable("link.command.wrongusage"));
 					}
 					return Command.SINGLE_SUCCESS;
+					// Patch end
 		})))
 
 		.then(Commands.literal("digitalread")
